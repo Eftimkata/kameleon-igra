@@ -5,7 +5,7 @@ const URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:3001";
 export const socket = io(URL);
 
 const SOCKET_URL = import.meta.env.PROD 
-  ? 'https://your-backend-url.herokuapp.com' // Replace with your deployed backend URL
+  ? 'https://kameleon-igra.onrender.com' // Replace with your deployed backend URL
   : 'http://localhost:3001';
 
 
